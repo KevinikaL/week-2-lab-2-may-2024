@@ -4,27 +4,117 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <nav>
-    <a>Home</a>
-    <a>Gallery</a>
-    <a>About</a>
-  </nav>
-  
-  <h1>My Hobby</h1>
-  <img>
-  
-  <main>
-    <h2>About my hobby</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </main>
-  
-
-
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #e9d7be;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+    }
+    
+    .header h1 {
+      font-size: 50px;
+    }
+    
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+      float: left;
+      width: 75%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    
+    
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+    
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+    h1{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+    </style>
+    </head>
 
 
 
@@ -32,6 +122,43 @@
 
   
   <script src="script.js"></script>
-</body>
+  <body>
+    <div class="topnav">
+      <a href="All about me.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+    <h1>Mother of 3+1!</h1>
+<img src="https://mail.google.com/mail/u/0?ui=2&ik=af2a307d32&attid=0.1&permmsgid=msg-f:1823545417946715742&th=194e88e56481565e&view=att&zw&disp=safe" width="200" legnth="300"
+
+ <p>There's nothing I enjoy more than being a mother! Being a full-time mom is a blessing to me. Each child has a different personality 
+    and hobby; I try to acommodate them all! We have a rotutine that I try to stick to, because without a routine, things get messy!
+    I like to think of myself as the executive of the household. I love to be organized, it makes my job so much easier and I get to have free time with my babies. 
+    It's a win win in my book. Here's a look at our weekday schedule.
+    </p>
+  <h4>How I balance my life with the kids:</h4>  
+  <ol style="background-color:rgb(215, 215, 215);">
+    <li><strong>5:30-7:30am </strong>Get the kids ready for school</li>
+    <li><strong>7:30-9:30am</strong> I take a nap (mommy is not a morning person)</li>
+    <li><strong>9:30-10:00am</strong>Get dressed and ready for the day, jump into yoga</li>
+    <li><strong>10:00-10:30am</strong>Have breakfast</li>
+    <li><strong>10:30-11:30am</strong>Tidy home and do laundry if needed</li>
+    <li><strong>11:30-1:30pm</strong>Art and productivity</li>
+    <li><strong>1:30-3:00pm</strong>Naptime(making a baby is tiring)</li>
+    <li><strong>3:00-4:00pm</s<trong>Kids return home</li>
+    <li><strong>4:00-5:00pm</strong>Snacktime and breaktime for the kids, while I cook dinner</li>
+    <li><strong>5:00-7:00pm</strong>Bath homework and chore rotation, Class starts for mom</li>
+    <li><strong>7:00-8:30pm</strong>Dinner and tv time</li>
+    <li><strong>8:30-9:00pm</strong>30min electronics; I study/learn code</li>
+    <li><strong>9:00pm-9:45pm</strong>Family quality time(board games,or groupread)</li>
+    <li><strong>9:45pm</strong>Kids Bedtime!</li>
+    <li><strong>10:00-11:00pm</strong>Selfcare,bath,relax</li>
+    <li><strong>11:00-12:30am</strong>Mommy and daddy movie time and late night snacks!</li>
+
+  </ol>
+  <div class="footer">
+    <h2>My greatest creation</h2>
+  </div>
+  </body>
+
 
 </html>
